@@ -1,0 +1,104 @@
+
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fdf4f4; 
+    color: #333;
+}
+
+
+
+
+.header {
+    background-color: #6d6967; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name h1 {
+    font-size: 2.5em;
+    color: #6d6967; 
+    margin-bottom: 10px;
+}
+
+.name p {
+    font-size: 1.2em;
+    color: #6d6967;
+}
+
+
+form {
+    background-color: #f8d9d9;
+    border-radius: 10px; 
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+nav {
+    margin-bottom: 15px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6d6967;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #6d6967; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.footer {
+    background-color: #6d6967; 
+    padding: 20px;
+    width: 100%;
+    bottom:0%; 
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+
+
+.signuplink {
+    margin: 20px;
+}

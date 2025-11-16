@@ -1,0 +1,121 @@
+
+ body {
+    background-color: #fdf4f4; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: hwb(20 42% 52%); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Optional: sets a max width for larger screens */
+    box-sizing: border-box;
+}
+
+.logo-form {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+
+.logo {
+    width: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.f1 {
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6d6967;
+    
+}
+
+
+footer {
+
+    background-color: #6d6967; /* Same color as navbar for consistency */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.navbar {
+    justify-content: center;
+    padding: 10px;
+    color: #f8b8b8; 
+    background-color: #6d6967;
+    position: relative; /* Change to relative positioning */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 10px;
+}
+
+.navbar a {
+    color: white; 
+    text-decoration: none; /* Change from dotted to none for better readability */
+    font-weight: bold;
+}
+.footer {
+    background-color: #6d6967; 
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}

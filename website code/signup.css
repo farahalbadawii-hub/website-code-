@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+body {
+  
+    background-color: #fdf4f4; /* Light pink background similar to the login page */
+    color: #333;
+}
+
+
+.header {
+    background-color: #6d6967; /* Darker pink-brown color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Navigation styling inside main */
+.name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name h1 {
+    font-size: 2.5em;
+    color: #6d6967; /* Dark pink-brown color */
+    margin-bottom: 10px;
+}
+
+.name p {
+    font-size: 1.2em;
+    color: #6d6967;
+}
+
+.sign-up {
+    background-color: #f8d9d9; /* Light pink background for the form */
+    border-radius: 10px; /* Rounded corners for the form */
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Maximum width of the form */
+   
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6d6967;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6d6967; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #6d6967; 
+    padding: 20px;
+    width: 100%;
+}
+.footer p {
+
+    color: white;
+    text-align: center;
+
+}
+
+.loginlink{
+
+margin: 20px;
+
+}
+
